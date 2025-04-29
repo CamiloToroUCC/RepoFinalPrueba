@@ -51,16 +51,12 @@
   </dependencies>
 
   <build>
-     <plugins>
+    <plugins>
       <plugin>
          <groupId>org.springframework.boot</groupId>
          <artifactId>spring-boot-maven-plugin</artifactId>
          <version>3.4.4</version>
-         <!-- Si es necesario, se puede especificar mainClass aquí.
-         <configuration>
-             <mainClass>com.cognitiveapp.training.ApplicationTraining</mainClass>
-         </configuration>
-         -->
+         <!-- (Opcional) Se puede especificar la clase principal si fuera necesario -->
       </plugin>
     </plugins>
   </build>
